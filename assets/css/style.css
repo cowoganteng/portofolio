@@ -1,5 +1,198 @@
+*/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-img {
-    width: 20px;
+/* Body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Container */
+main{
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
+}
+
+/* Header */
+header{
+    background:#0d6efd;
+    color:white;
+    padding:20px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:10px;
+}
+
+header h1{
+    font-size:30px;
+}
+
+/* Navigation */
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ffd43b;
+}
+
+/* Sections */
+section{
+    background:white;
+    margin:26px,0;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgb(0,0,0,0.1);
 
 }
+
+/* Headings */
+h2{
+    color:#0d6efd;
+    margin-bottom:15px;
+    border-bottom:3px solid #0d6efd;
+    display:inline-block;
+    padding-bottom:5px;
+}
+
+/* Home */
+#home{
+    text-align:center;
+}
+
+#home img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #0d6efd;
+    margin-bottom:20px;
+}
+
+.highlight{
+    color:#0d6efd;
+    font-weight:bold;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table, th, td{
+    border:1px solid #ccc;
+}
+
+th{
+    background:#0d6efd;
+    color:white;
+}
+th, td{
+    padding:12px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background:#f8f9fa;
+}
+
+
+
+
+
+
+ /* Table */
+ table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+ }
+ table,th,td{
+    border:1px solid #ccc;
+ }
+
+ th{
+    background: #0d6efd;
+    color:white;
+ }
+ th,td{
+    padding:12px;
+    text-align:center;
+ }
+  
+ tr:nth-child(even){
+    background: #f8f9fa;
+ }
+
+/* Form */
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:15px;
+}
+
+textarea{
+    resize:vertical;
+    min-height:120px;
+}
+
+/* Button */
+.btn{
+    margin-top:15px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#135dcb;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    border-radius:10px;
+    background-color: #0d6efd;
+}
+
+
+
